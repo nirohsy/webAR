@@ -30,7 +30,7 @@ function init(){
     //glTFの読み込み
 var gltfLoader = new THREE.GLTFLoader();
  
-gltfLoader.load('AR-allWeb.gltf',function(data){
+gltfLoader.load('AR-allWeb.glb',function(data){
     var gltf = data;
     var obj = gltf.scene;
     scene.add(obj);
